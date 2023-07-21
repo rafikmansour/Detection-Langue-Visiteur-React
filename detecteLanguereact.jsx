@@ -10,7 +10,7 @@ const LanguageDetector = () => {
         // Redirection pour la langue française
         window.location.href = "/fr"; // Remplacez "/fr" par l'URL de votre page en français
       } else {
-        // Redirection pour les autres langues (par défaut en anglais ici)
+        // Redirection pour les autres langues (par défaut en anglais ici vous pouvez modifier pour le français ou l'espagnole)
         window.location.href = "/en"; // Remplacez "/en" par l'URL de votre page en anglais ou la langue par défaut souhaitée
       }
     };
